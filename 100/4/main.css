@@ -1,0 +1,25 @@
+body {
+	margin: 0;
+}
+.yellow {
+	height: 100px;
+	background-color: yellow;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: -47px;
+	right: 50px;
+}
+
+.green {
+	position: relative;
+	width: 70%;
+	height: 600px;
+	margin: 0 auto;
+	background-color: green;
+}
