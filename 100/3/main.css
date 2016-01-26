@@ -1,0 +1,53 @@
+/* commom.css */
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+
+}
+
+.clearfix:after {clear: both;}
+
+.clearfix {zoom: 1;}
+
+
+
+/* body */
+.header {
+	background-color: #3c3c3c;
+}
+
+
+.block {
+	color: #fff;
+	font-size: 30px;
+	padding: 20px;
+}
+
+.block1 {
+	width: 65%;
+	height: 400px;
+	background: orange;
+	float: left;
+}
+
+.block2 {
+	width: 25%;
+	height: 400px;
+	background: blue;
+	float: right;
+}
+
+.container {
+	width: 800px;
+	background: #7915D9;
+	margin: 0 auto;
+}
+
+.footer {
+	background: #79CCDE;
+
+}
