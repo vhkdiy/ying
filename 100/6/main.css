@@ -1,0 +1,203 @@
+/* common.css */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #fafafa;
+	font: 17px / 1.7 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color: #555;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+/* welome.css */
+
+.welome .header {
+	background: rgba(0,0,0,.4);
+}
+
+.banner-page {
+	background: url("./images/maxresdefault1.jpg");	
+	height: 450px;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+.tagline {
+	margin-top: 150px;
+	margin-bottom: 10px;
+	color: #fff;
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.tagline-caption {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	opacity: 0.8;
+}
+
+.post-list-wrapper {
+	padding: 78px 0;
+	background: #ebeced;
+}
+
+.post {
+	float: left;
+	background: #fff;
+	width: 290px;
+	height: 420px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-radius: 5px;
+	box-shadow: 0 2px 1px rgba(0,0,0,.08);
+
+	position: relative;
+}
+
+.post .thumbnail {
+	display: block;
+	width: 290px;
+	height: 290px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.post .post-info {
+	margin: 24px;
+}
+
+.post h3 {
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.post .date {
+	position: absolute;
+	left: 24px;
+	bottom: 10px;
+	font-size: 13px;
+	color: #BDBDBD;
+}
+
+
+/* layout.css */
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 55px;
+	background-color: #009688;
+}
+
+.header .nva {
+	margin: 0;
+	margin-top: 15px;
+	padding: 0;
+	float: left;
+}
+
+.header .nva li {
+	list-style: none;
+	float: left;
+	margin-right: 7px;
+}
+
+.header .nva li a {
+	color: #fff;
+	font-size: 15px;
+	padding: 8px 5px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+}
+
+.header .nva li a:hover {
+	border: 1px solid rgba(255,255,255,.2);
+}
+
+.header .nva li.current a {
+	background: rgba(255,255,255,.2);
+	border:1px solid transparent;
+}
+
+
+.header .logo {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+
+	/*居中*/
+	position: fixed;
+	left: 50%;	
+	margin-left: -25px;
+	top: 15px;
+
+	/*字体样式*/
+	box-shadow: 0 5px 5px rgba(0,0,0,.1);
+	background-color: #26A69A;
+	color: #fff;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+}
+
+
+
+
+
+/* blog.css */
+
+.blog-wrapper {
+	width: 750px;
+	margin: 0px auto;
+	margin-top: 100px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px #9E9E9E;
+	padding: 30px;
+}
+
+
+.post-title {
+	font-weight: normal;
+	color: #F48FB1;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.post-img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
