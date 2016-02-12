@@ -1,0 +1,90 @@
+/* common.css */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #fafafa;
+	font: 17px / 1.7 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+	color: #555;
+}
+
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+/* layout.css */
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background-color: #009688;
+}
+
+.header .logo {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+
+	/*居中*/
+	position: fixed;
+	left: 50%;	
+	margin-left: -25px;
+	top: 60px;
+
+	/*字体样式*/
+	box-shadow: 0 5px 5px rgba(0,0,0,.1);
+	background-color: #26A69A;
+	color: #fff;
+	font-size: 20px;
+	line-height: 60px;
+	text-align: center;
+}
+
+
+
+/* blog.css */
+
+.blog-wrapper {
+	width: 750px;
+	margin: 0px auto;
+	margin-top: 100px;
+	background-color: #fff;
+	box-shadow: 0 2px 5px #9E9E9E;
+	padding: 30px;
+}
+
+
+.post-title {
+	font-weight: normal;
+	color: #F48FB1;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.post-img {
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
